@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		A000112E0E3DA6FC0001003F /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0BA8E4C0E3CD63600ED2836 /* dist.plist */; };
+		A03568900E6191D300FAC164 /* chimes.wav in Resources */ = {isa = PBXBuildFile; fileRef = A035688F0E6191D300FAC164 /* chimes.wav */; };
+		A03568910E6191D300FAC164 /* chimes.wav in Resources */ = {isa = PBXBuildFile; fileRef = A035688F0E6191D300FAC164 /* chimes.wav */; };
+		A05A3E680E21B3BC002AA1AF /* 8ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A05A3E670E21B3BC002AA1AF /* 8ball.png */; };
+		A05A3F080E21C254002AA1AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05A3F070E21C254002AA1AF /* AudioToolbox.framework */; };
+		A05A3F3D0E21C82E002AA1AF /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = A05A3F3C0E21C82E002AA1AF /* icon57.png */; };
+		A08DD2210E6150AD00EE0FC9 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08DD2200E6150AD00EE0FC9 /* SettingsController.m */; };
+		A08DD2F60E6160CC00EE0FC9 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08DD2200E6150AD00EE0FC9 /* SettingsController.m */; };
+		A08DD34A0E61665500EE0FC9 /* BindleBinariesLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A08DD3490E61665500EE0FC9 /* BindleBinariesLogo.png */; };
+		A08DD3570E6167EF00EE0FC9 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A08DD3550E6167EF00EE0FC9 /* Button.png */; };
+		A08DD3580E6167EF00EE0FC9 /* ButtonPushed.png in Resources */ = {isa = PBXBuildFile; fileRef = A08DD3560E6167EF00EE0FC9 /* ButtonPushed.png */; };
+		A08DD3710E6172CE00EE0FC9 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = A08DD3550E6167EF00EE0FC9 /* Button.png */; };
+		A08DD3720E6172CE00EE0FC9 /* ButtonPushed.png in Resources */ = {isa = PBXBuildFile; fileRef = A08DD3560E6167EF00EE0FC9 /* ButtonPushed.png */; };
+		A08DD3730E6172CE00EE0FC9 /* BindleBinariesLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A08DD3490E61665500EE0FC9 /* BindleBinariesLogo.png */; };
+		A0998D6B0E3C7E2600320C22 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0998D6A0E3C7E2600320C22 /* Default.png */; };
+		A0998DC10E3C866C00320C22 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0998DC00E3C866C00320C22 /* GameController.m */; };
+		A0998DF80E3C9A9500320C22 /* magic8ballController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0998DF70E3C9A9500320C22 /* magic8ballController.m */; };
+		A0998EB60E3CA3D900320C22 /* 8ballCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = A0BC19300E2323C900C17AA2 /* 8ballCenter.png */; };
+		A09990F00E3CD0F800320C22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		A09990F10E3CD0F800320C22 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0998DC00E3C866C00320C22 /* GameController.m */; };
+		A09990F20E3CD0F800320C22 /* LuckyChipController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0998F750E3CB38400320C22 /* LuckyChipController.m */; };
+		A09990F30E3CD11000320C22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		A09990F40E3CD11C00320C22 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = A0998FEC0E3CBD0300320C22 /* icon57.png */; };
+		A09990F50E3CD12400320C22 /* LuckyPokerChipCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = A0998F770E3CB3F100320C22 /* LuckyPokerChipCenter.png */; };
+		A09990F60E3CD12A00320C22 /* LuckyPokerChip.png in Resources */ = {isa = PBXBuildFile; fileRef = A0998F780E3CB3F100320C22 /* LuckyPokerChip.png */; };
+		A09990F70E3CD13300320C22 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0998D6A0E3C7E2600320C22 /* Default.png */; };
+		A09990F80E3CD13B00320C22 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		A0BA8E1A0E3CD26300ED2836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		A0BA8E1B0E3CD26E00ED2836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		A0BA8E1C0E3CD27700ED2836 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05A3F070E21C254002AA1AF /* AudioToolbox.framework */; };
+		A0D040E00E619CB300A73ABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D040DF0E619CB300A73ABC /* SystemConfiguration.framework */; };
+		A0D040E40E619CBE00A73ABC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D040E30E619CBE00A73ABC /* CoreLocation.framework */; };
+		A0D040E80E619CFD00A73ABC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D040E70E619CFD00A73ABC /* libsqlite3.0.dylib */; };
+		A0D040E90E619D1200A73ABC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D040E70E619CFD00A73ABC /* libsqlite3.0.dylib */; };
+		A0D040EA0E619D1E00A73ABC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D040E30E619CBE00A73ABC /* CoreLocation.framework */; };
+		A0D040EB0E619D2400A73ABC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D040DF0E619CB300A73ABC /* SystemConfiguration.framework */; };
+		A0D041310E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D0412F0E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a */; };
+		A0D041320E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D041300E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a */; };
+		A0D041330E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D0412F0E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a */; };
+		A0D041340E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D041300E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* magic8ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magic8ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* magic8ballViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = magic8ballViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* magic8ballViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic8ballViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* magic8ballViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magic8ballViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* magic8ball_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic8ball_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A035688F0E6191D300FAC164 /* chimes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chimes.wav; sourceTree = "<group>"; };
+		A05A3E670E21B3BC002AA1AF /* 8ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8ball.png; sourceTree = "<group>"; };
+		A05A3F070E21C254002AA1AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A05A3F1E0E21C4E6002AA1AF /* pooltable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pooltable.png; sourceTree = "<group>"; };
+		A05A3F3C0E21C82E002AA1AF /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		A08DD21F0E6150AD00EE0FC9 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		A08DD2200E6150AD00EE0FC9 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		A08DD29D0E615ACA00EE0FC9 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		A08DD3490E61665500EE0FC9 /* BindleBinariesLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BindleBinariesLogo.png; sourceTree = "<group>"; };
+		A08DD3550E6167EF00EE0FC9 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		A08DD3560E6167EF00EE0FC9 /* ButtonPushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonPushed.png; sourceTree = "<group>"; };
+		A0998D6A0E3C7E2600320C22 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0998DBC0E3C855800320C22 /* LuckyPokerChip.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LuckyPokerChip.xcf; sourceTree = "<group>"; };
+		A0998DBD0E3C857D00320C22 /* 8ball.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8ball.xcf; sourceTree = "<group>"; };
+		A0998DBE0E3C859000320C22 /* 8ballIcon.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8ballIcon.xcf; sourceTree = "<group>"; };
+		A0998DBF0E3C866C00320C22 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A0998DC00E3C866C00320C22 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A0998DF60E3C9A9500320C22 /* magic8ballController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic8ballController.h; sourceTree = "<group>"; };
+		A0998DF70E3C9A9500320C22 /* magic8ballController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magic8ballController.m; sourceTree = "<group>"; };
+		A0998F4D0E3CB0BE00320C22 /* LuckyChip_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyChip_Prefix.pch; sourceTree = "<group>"; };
+		A0998F740E3CB38400320C22 /* LuckyChipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyChipController.h; sourceTree = "<group>"; };
+		A0998F750E3CB38400320C22 /* LuckyChipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyChipController.m; sourceTree = "<group>"; };
+		A0998F770E3CB3F100320C22 /* LuckyPokerChipCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyPokerChipCenter.png; sourceTree = "<group>"; };
+		A0998F780E3CB3F100320C22 /* LuckyPokerChip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyPokerChip.png; sourceTree = "<group>"; };
+		A0998FEC0E3CBD0300320C22 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		A09990EA0E3CD0D400320C22 /* LuckyChip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyChip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BA8E4C0E3CD63600ED2836 /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dist.plist; path = ../dist.plist; sourceTree = "<group>"; };
+		A0BC192C0E2322AC00C17AA2 /* feltGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feltGreen.png; sourceTree = "<group>"; };
+		A0BC19300E2323C900C17AA2 /* 8ballCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8ballCenter.png; sourceTree = "<group>"; };
+		A0D040DE0E619C3600A73ABC /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
+		A0D040DF0E619CB300A73ABC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A0D040E30E619CBE00A73ABC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A0D040E70E619CFD00A73ABC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A0D0412F0E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPinchMediaAnalyticsSimulator.a; sourceTree = "<group>"; };
+		A0D041300E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPinchMediaAnalyticsDevice.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				A05A3F080E21C254002AA1AF /* AudioToolbox.framework in Frameworks */,
+				A0D040E00E619CB300A73ABC /* SystemConfiguration.framework in Frameworks */,
+				A0D040E40E619CBE00A73ABC /* CoreLocation.framework in Frameworks */,
+				A0D040E80E619CFD00A73ABC /* libsqlite3.0.dylib in Frameworks */,
+				A0D041310E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a in Frameworks */,
+				A0D041320E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09990E80E3CD0D400320C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BA8E1A0E3CD26300ED2836 /* Foundation.framework in Frameworks */,
+				A0BA8E1B0E3CD26E00ED2836 /* UIKit.framework in Frameworks */,
+				A0BA8E1C0E3CD27700ED2836 /* AudioToolbox.framework in Frameworks */,
+				A0D040E90E619D1200A73ABC /* libsqlite3.0.dylib in Frameworks */,
+				A0D040EA0E619D1E00A73ABC /* CoreLocation.framework in Frameworks */,
+				A0D040EB0E619D2400A73ABC /* SystemConfiguration.framework in Frameworks */,
+				A0D041330E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a in Frameworks */,
+				A0D041340E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0998DF90E3C9A9B00320C22 /* deprecated */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				A08DD29D0E615ACA00EE0FC9 /* common.h */,
+				A0998DBF0E3C866C00320C22 /* GameController.h */,
+				A0998DC00E3C866C00320C22 /* GameController.m */,
+				A0998DF60E3C9A9500320C22 /* magic8ballController.h */,
+				A0998DF70E3C9A9500320C22 /* magic8ballController.m */,
+				A0998F740E3CB38400320C22 /* LuckyChipController.h */,
+				A0998F750E3CB38400320C22 /* LuckyChipController.m */,
+				A08DD21F0E6150AD00EE0FC9 /* SettingsController.h */,
+				A08DD2200E6150AD00EE0FC9 /* SettingsController.m */,
+			);
+			name = Classes;
+			path = src/classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* magic8ball.app */,
+				A09990EA0E3CD0D400320C22 /* LuckyChip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A0D040DE0E619C3600A73ABC /* Beacon.h */,
+				A0998F4D0E3CB0BE00320C22 /* LuckyChip_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* magic8ball_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = src/other;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A035688F0E6191D300FAC164 /* chimes.wav */,
+				A0998DBB0E3C84EE00320C22 /* LuckyPokerChip */,
+				A0998D430E3C7CD500320C22 /* magic8ball */,
+				A08DD3550E6167EF00EE0FC9 /* Button.png */,
+				A08DD3560E6167EF00EE0FC9 /* ButtonPushed.png */,
+				A08DD3490E61665500EE0FC9 /* BindleBinariesLogo.png */,
+				A0BA8E4C0E3CD63600ED2836 /* dist.plist */,
+				A0998D6A0E3C7E2600320C22 /* Default.png */,
+				A0BC192C0E2322AC00C17AA2 /* feltGreen.png */,
+				2899E5210DE3E06400AC0155 /* magic8ballViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D0412F0E619E1A00A73ABC /* libPinchMediaAnalyticsSimulator.a */,
+				A0D041300E619E1A00A73ABC /* libPinchMediaAnalyticsDevice.a */,
+				A0D040DF0E619CB300A73ABC /* SystemConfiguration.framework */,
+				A0D040E30E619CBE00A73ABC /* CoreLocation.framework */,
+				A0D040E70E619CFD00A73ABC /* libsqlite3.0.dylib */,
+				A05A3F070E21C254002AA1AF /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		A0998D430E3C7CD500320C22 /* magic8ball */ = {
+			isa = PBXGroup;
+			children = (
+				A0998DBE0E3C859000320C22 /* 8ballIcon.xcf */,
+				A0998DBD0E3C857D00320C22 /* 8ball.xcf */,
+				A05A3E670E21B3BC002AA1AF /* 8ball.png */,
+				A0BC19300E2323C900C17AA2 /* 8ballCenter.png */,
+				A05A3F1E0E21C4E6002AA1AF /* pooltable.png */,
+				A05A3F3C0E21C82E002AA1AF /* icon57.png */,
+			);
+			path = magic8ball;
+			sourceTree = "<group>";
+		};
+		A0998DBB0E3C84EE00320C22 /* LuckyPokerChip */ = {
+			isa = PBXGroup;
+			children = (
+				A0998FEC0E3CBD0300320C22 /* icon57.png */,
+				A0998F770E3CB3F100320C22 /* LuckyPokerChipCenter.png */,
+				A0998F780E3CB3F100320C22 /* LuckyPokerChip.png */,
+				A0998DBC0E3C855800320C22 /* LuckyPokerChip.xcf */,
+			);
+			path = LuckyPokerChip;
+			sourceTree = "<group>";
+		};
+		A0998DF90E3C9A9B00320C22 /* deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* magic8ballViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* magic8ballViewController.m */,
+			);
+			name = deprecated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* magic8ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "magic8ball" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magic8ball;
+			productName = magic8ball;
+			productReference = 1D6058910D05DD3D006BFB54 /* magic8ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A09990E90E3CD0D400320C22 /* LuckyChip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09990EF0E3CD0F200320C22 /* Build configuration list for PBXNativeTarget "LuckyChip" */;
+			buildPhases = (
+				A09990E60E3CD0D400320C22 /* Resources */,
+				A09990E70E3CD0D400320C22 /* Sources */,
+				A09990E80E3CD0D400320C22 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyChip;
+			productName = LuckyPokerChip;
+			productReference = A09990EA0E3CD0D400320C22 /* LuckyChip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "magic8ball" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* magic8ball */,
+				A09990E90E3CD0D400320C22 /* LuckyChip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				A05A3E680E21B3BC002AA1AF /* 8ball.png in Resources */,
+				A05A3F3D0E21C82E002AA1AF /* icon57.png in Resources */,
+				A0998D6B0E3C7E2600320C22 /* Default.png in Resources */,
+				A0998EB60E3CA3D900320C22 /* 8ballCenter.png in Resources */,
+				A08DD34A0E61665500EE0FC9 /* BindleBinariesLogo.png in Resources */,
+				A08DD3570E6167EF00EE0FC9 /* Button.png in Resources */,
+				A08DD3580E6167EF00EE0FC9 /* ButtonPushed.png in Resources */,
+				A03568900E6191D300FAC164 /* chimes.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09990E60E3CD0D400320C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09990F40E3CD11C00320C22 /* icon57.png in Resources */,
+				A09990F50E3CD12400320C22 /* LuckyPokerChipCenter.png in Resources */,
+				A09990F60E3CD12A00320C22 /* LuckyPokerChip.png in Resources */,
+				A09990F70E3CD13300320C22 /* Default.png in Resources */,
+				A09990F80E3CD13B00320C22 /* MainWindow.xib in Resources */,
+				A000112E0E3DA6FC0001003F /* dist.plist in Resources */,
+				A08DD3710E6172CE00EE0FC9 /* Button.png in Resources */,
+				A08DD3720E6172CE00EE0FC9 /* ButtonPushed.png in Resources */,
+				A08DD3730E6172CE00EE0FC9 /* BindleBinariesLogo.png in Resources */,
+				A03568910E6191D300FAC164 /* chimes.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				A0998DC10E3C866C00320C22 /* GameController.m in Sources */,
+				A0998DF80E3C9A9500320C22 /* magic8ballController.m in Sources */,
+				A08DD2F60E6160CC00EE0FC9 /* SettingsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09990E70E3CD0D400320C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09990F00E3CD0F800320C22 /* AppDelegate.m in Sources */,
+				A09990F10E3CD0F800320C22 /* GameController.m in Sources */,
+				A09990F20E3CD0F800320C22 /* LuckyChipController.m in Sources */,
+				A09990F30E3CD11000320C22 /* main.m in Sources */,
+				A08DD2210E6150AD00EE0FC9 /* SettingsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/magic8ball_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "MAGICEIGHTBALL=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = magic8ball;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/magic8ball_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "MAGICEIGHTBALL=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = magic8ball;
+			};
+			name = Release;
+		};
+		A05A3F460E21C907002AA1AF /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Syzdek";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FC20D3B3-1F0B-4B84-923D-1CE20E4DE60F";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Distribute;
+		};
+		A05A3F470E21C907002AA1AF /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/magic8ball_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "MAGICEIGHTBALL=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = magic8ball;
+			};
+			name = Distribute;
+		};
+		A09990EC0E3CD0D400320C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/LuckyChip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"LUCKYCHIP=1",
+				);
+				INFOPLIST_FILE = resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LuckyChip;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F53A21A8-AE0A-4CC0-938D-2DCF27704B11";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		A09990ED0E3CD0D400320C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/LuckyChip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LUCKYCHIP=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LuckyChip;
+				PROVISIONING_PROFILE = "F53A21A8-AE0A-4CC0-938D-2DCF27704B11";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = DefaultProfileUuid;
+				SDKROOT = iphoneos2.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		A09990EE0E3CD0D400320C22 /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Syzdek";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/LuckyChip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LUCKYCHIP=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LuckyChip;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FC20D3B3-1F0B-4B84-923D-1CE20E4DE60F";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Distribute;
+		};
+		A0BA8E340E3CD45200ED2836 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Syzdek";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "77071BDF-88A4-4306-8123-D41C3CA30420";
+				SDKROOT = iphoneos2.0;
+			};
+			name = AdHoc;
+		};
+		A0BA8E350E3CD45200ED2836 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/magic8ball_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "MAGICEIGHTBALL=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = magic8ball;
+			};
+			name = AdHoc;
+		};
+		A0BA8E360E3CD45200ED2836 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Syzdek";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/other/LuckyChip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LUCKYCHIP=1";
+				INFOPLIST_FILE = resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/Pinch Analytics-1\"",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = LuckyChip;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F37A6054-B4E3-4912-9C6C-5C0773A44B3F";
+				SDKROOT = iphoneos2.0;
+			};
+			name = AdHoc;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2BFB4F47-29A0-4821-AC2B-B3270A4E3B6B";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2BFB4F47-29A0-4821-AC2B-B3270A4E3B6B";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "magic8ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				A05A3F470E21C907002AA1AF /* Distribute */,
+				A0BA8E350E3CD45200ED2836 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09990EF0E3CD0F200320C22 /* Build configuration list for PBXNativeTarget "LuckyChip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09990EC0E3CD0D400320C22 /* Debug */,
+				A09990ED0E3CD0D400320C22 /* Release */,
+				A09990EE0E3CD0D400320C22 /* Distribute */,
+				A0BA8E360E3CD45200ED2836 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "magic8ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				A05A3F460E21C907002AA1AF /* Distribute */,
+				A0BA8E340E3CD45200ED2836 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
